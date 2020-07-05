@@ -36,7 +36,7 @@ Use 40k different src IPs to hold 40k connections. 1 TCPconn per IP is not TCP c
 ```
 ##### Good usage
 ```
-./kanagawa-wave -i eth0 -n 40000 -c 10 -t 10 -d 172.25.3.1 -p 443
+./kanagawa-wave -i eth0 -n 10 -c 40000 -t 10 -d 172.25.3.1 -p 443
                            ^        ^
 Use 10 different src IPs to hold 40k connections. 4000 TCPconn per IP looks like TCP connect flood
 ```
